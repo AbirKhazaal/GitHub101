@@ -246,6 +246,10 @@ for (name in names(graphs_list)) {
   # Combine results from different methods
   combined_results <- rbind(results_walktrap, results_louvain, results_eigenvector)
   all_results[[name]] <- combined_results
+
+
+
+  #hello everyonE
   
   # Save combined results to a CSV file
   write_to_csv(combined_results, paste0(name, "_combined_results.csv"))
